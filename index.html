@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+   
+    <title>code counter app</title>
+</head>
+<body class="body">
+    <div class="div">
+        <h1 class="heading">Number of Hours Spent Coding:</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <!-- whenever button is clicked, it will run the function INCREMENT written in js -->
+
+    <!-- 2. Create a SAVE button.
+        Set the id to "save-btn" and call the save() function when it's clicked -->
+        <button id="save-btn" onclick="save()">SAVE</button>
+
+        <p id="save-el">Previous entires: </p>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
